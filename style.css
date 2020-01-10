@@ -1,0 +1,151 @@
+article {
+	background-color: #bde5d8;
+	align-content: : center;
+	width: 1000px;
+	margin: auto;
+	padding: 80px;
+	margin-top: 10px;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+article img {
+	float: right;
+	margin-right: 900px;
+}
+
+article ul li a {
+	text-decoration:none;
+}
+#photoAccueil img {
+	margin-right: 200px;
+}
+
+#causes {
+	margin-left: 1600px;
+}
+
+#enfant {
+	margin-left: 1500px;
+}
+
+#lutte {
+	margin-left: 1400px;
+}
+
+article h1 {
+	text-align: center;
+	margin-top: -10px;
+	font-size:2em
+}
+
+nav {
+	background-color: #0e7554 ;
+	margin-top: -10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: verdana;
+	position: relative;
+}
+
+#contact {
+	margin-left: 280px;
+	margin-top: -22px;
+}
+
+header {
+	background-color: #617B6A;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+
+}
+
+#biblio {
+	text-align: right;
+	margin-top: -18px;
+}
+
+section {
+	background-color: #c3f1e2;
+}
+
+#logo {
+	text-align: center;
+}
+
+#footer_milieu {
+	text-align: justify;
+	padding-left: 650px;
+}
+
+#footer_droite {
+	float: right;
+}
+
+footer {
+	padding: 10px;
+	padding-top: 5px;
+	background-color: #469F64;
+	height: 30px;
+	color: black;
+	font-family: verdana;
+}
+
+
+#menuArticle {
+  padding:0;
+  margin:0;
+  text-align: center;
+  width: 200px;
+  margin-left: 65px;
+  margin-top: -28px;
+  position: absolute;
+  list-style-type: none;
+}
+#menuArticle ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+#menuArticle li {
+   background-color:#0e7554;
+   border-radius: 6px;
+   margin-bottom:2px;
+}
+#menuArticle li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all 1s;
+   border-radius:0;
+   background-color: black;
+   border:none;
+   margin:0;
+}
+#menuArticle a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1em
+}
+#menuArticle ul li a, #menuArticle li:hover li a {
+  font-size:1em
+}
+#menuArticle li:hover {
+   background: #729EBF
+}
+#menuArticle li li:hover {
+   background: #999;
+}
+#menuArticle ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menuArticle li:hover li {
+  max-height: 15em;
+}
