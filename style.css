@@ -135,7 +135,14 @@ footer {
 }
 #menuArticle ul li a, #menuArticle li:hover li a {
   font-size:1em
+
 }
+
+#menuArticle ul li a, #menuArticle li:active li a {
+  font-size:1em
+  
+}
+
 #menuArticle li:hover {
    background: #729EBF
 }
